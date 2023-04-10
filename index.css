@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+/* nav */
+nav {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+nav img {
+    width: 100%;
+    height: 20%;
+}
+
+/* end nav */
+/* ------------------------------------------------------------ */
+header {
+    display: flex;
+    width: 100%;
+    background-color: #14235A;
+    height: 20%;
+    margin-bottom: 1%;
+}
+
+/* logo */
+.logo {
+    width: 40%;
+
+
+}
+
+.logo img {
+    width: 60%;
+    height: 70%;
+
+}
+
+/* end logo */
+
+/* -------------------------------------------------- */
+
+/* thanh điều hướng */
+#btn {
+    background-color: #14235A;
+    width: 20%;
+}
+
+#btn button {
+    width: 55%;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-top: -5%;
+}
+
+.navbar {
+    width: 100%;
+
+}
+
+li {
+    margin: 0% 1%;
+    width: 100%;
+    font-size: 20px;
+}
+
+ul {
+
+
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+    color: #14235A;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    margin-top: 1.5%;
+
+}
+
+
+
+/* end menu */
+
+
+/* ---------------------------------------------- */
+
+
+
+
+
+
+/* CONTAINER */
+
+.line1 {
+    margin-top: 5%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-around;
+    height: 100%;
+
+
+
+}
+
+.box img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.box {
+    width: 100%;
+    margin: 10% 0%;
+
+    text-align: center;
+}
+
+
+.box button {
+    background-color: #F12222;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 20%;
+    width: 60%;
+
+}
+
+
+footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: #14235A;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.icon {
+    margin-top: 1.5%;
+
+}
+
+.icon img {
+    margin: 0 2%;
+    width: 5%;
+}
+
+h3 {
+
+    color: white;
+}
+.mini-icon img{
+        display: none;
+    }
+
+/* reponsive tablet */
+
+@media screen and (max-width:1024px) {
+    .line1 {
+        margin-top: 5%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+        height: 100%;
+
+
+
+    }
+    .logo {
+        width: 30%;
+    
+    
+    }
+    
+    .logo img {
+        width: 100%;
+        height: 70%;
+    
+    }
+    .box button {
+        background-color: #F12222;
+        color: white;
+        border: 5px solid white;
+        border-radius: 10px;
+        height: 25%;
+        width: 75%;
+    
+    }
+    #btn {
+        background-color: #14235A;
+        width: 20%;
+    }
+    
+    #btn button {
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+        margin-left: 15%;
+    }
+    
+    
+    
+}
+
+
+
+@media screen and (max-width:640px) {
+    ul li{
+        display: none;
+    }
+    .line1 {
+        margin-top: 5%;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 65%;
+        justify-content: space-around;
+        height: 100%;
+
+
+
+    }
+    #btn {
+        background-color: #14235A;
+        width: 40%;
+    }
+    
+    #btn button {
+        width: 90%;
+        height: 85%;
+        border-radius: 20px;
+    }
+    .logo {
+        width: 57%;
+    
+    
+    }
+    
+    .logo img {
+        width: 100%;
+        height: 70%;
+    
+    }
+    
+    
+    .box button {
+        background-color: #F12222;
+        color: white;
+        border: 5px solid white;
+        border-radius: 10px;
+        height: 30%;
+        width: 90%;
+       
+    }
+
+    .mini-icon img{
+        display: inline;
+    }
+    .mini-icon{
+        margin-right: 3%;
+        margin-left: 5%;
+    }
+
+    .navbar {
+        width: 50%;
+    
+    }
+}
